@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Order Product - Nasir Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Place Your Order</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Products</a></li>
+        <li><a href="booking.html">Order</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Customer Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="product">Choose Product:</label>
+        <select id="product" name="product">
+          <option value="smartphone">Smartphone</option>
+          <option value="sneakers">Sneakers</option>
+          <option value="laptop">Laptop</option>
+        </select>
+
+        <p>Gender:</p>
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female</label>
+
+        <p>Interests:</p>
+        <label><input type="checkbox" name="interest" value="offers" /> Offers</label>
+        <label><input type="checkbox" name="interest" value="new" /> New Arrivals</label>
+
+        <label for="comments">Additional Notes:</label>
+        <textarea id="comments" name="comments" placeholder="Write your message..."></textarea>
+
+        <button type="submit">Submit Order</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nasir Store</p>
+  </footer>
+</body>
+</html>
